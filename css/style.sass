@@ -67,14 +67,14 @@ section
 	.nav-tabs
 		border: none
 		height: 40px
-		li:not(:first-child):hover
+		li:not(:first-child):not(:last-child):hover
 			border-top: 3px solid $colorh
 			z-index: 100
 			color: $color
 			box-shadow:  0px -8px 27px -11px #000000
 
 			
-		li:not(:first-child).active a
+		li:not(:first-child):not(:last-child).active a
 			border: 0
 			color: $color
 			
@@ -133,6 +133,7 @@ section
 				border-right: none
 				border-bottom: 1px solid #ccc
 				margin-top: 10px
+				background: transparent url(../img/icon.png) no-repeat -11px -285px
 	.navbar-toggle
 		float: left
 		p

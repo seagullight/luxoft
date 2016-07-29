@@ -56,7 +56,11 @@
 	footer .sots a {font-size: 20px;}
 	div.topstripe {padding-left: 1%;}
 	div.topstripe img {position: relative;}
-
+	.navbar .tab-content{
+		position: relative;
+		top: 83px;
+		left: 0;
+		width: 100%;}
 }
 
 
